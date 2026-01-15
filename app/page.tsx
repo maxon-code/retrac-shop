@@ -45,7 +45,7 @@ export default async function HomePage() {
 
     return (
 
-        <Theme appearance="dark" accentColor="violet" radius="large">
+        <Theme appearance="dark" accentColor="yellow" radius="large">
 
 
 
@@ -53,12 +53,12 @@ export default async function HomePage() {
             <Navigation />
 
                 <Flex direction="column" gap="5" m="8" align="center">
-                    <Text as="p" align="center" wrap="balance" color="gray"  size={{initial: "6", md: "5"}}>
+                    <Text as="p" align="center" wrap="balance" color="gray"  size={{initial: "7", md: "6"}}>
                         This is a Retrac Shop.
                         <br/> You can see items from  <Link target="_blank" href="https://discord.com/invite/retrac" color="yellow" highContrast>Retrac</Link>
                     </Text>
 
-                    <IconButton asChild size="3" radius="full" color="gray">
+                    <IconButton asChild size={{initial: "4", md: "3"}} variant="outline" color="gray" highContrast>
 
                         <a href="https://github.com/maxon-code/retrac-shop" target="_blank">
                             <Image src="/github.svg" alt="GitLogo" width={32} height={32}>
@@ -90,12 +90,12 @@ export default async function HomePage() {
                                     <Card key={item.id} size="2">
                                         <Flex direction="column" gap="3">
 
-                                            <Box className="Image-normal">
+                                            <Box >
                                                 <Image
                                                     src={item.image}
                                                     alt={item.name}
-                                                    width={700}
-                                                    height={700}
+                                                    width={360}
+                                                    height={360}
                                                     className="p-2"
                                                 />
                                             </Box>

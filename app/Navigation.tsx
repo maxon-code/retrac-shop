@@ -19,7 +19,7 @@ export default function  Navigation() {
 
             <Box p="3">
                 <Text
-                    size="6"
+                    size={{ initial: "8", md: "6" }}
                     weight="bold"
                     align={{ initial: "center", md: "left" }}
                 >
