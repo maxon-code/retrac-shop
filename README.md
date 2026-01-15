@@ -13,9 +13,7 @@
     />
   </a>
 
-<a href="./LICENSE" title="License"
-  style="text-decoration:none; display:inline-block; line-height:0;"
-  >
+<a href="./LICENSE" title="License" style="text-decoration:none; display:inline-block; line-height:0;">
     <img
       src="https://img.shields.io/badge/License-MIT-blue"
       alt="License MIT"
