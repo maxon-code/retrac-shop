@@ -15,4 +15,19 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
 </div>
 
-###
+### ⚡ Quick Start 
+
+For a quick preview using our cloud backend — get started in seconds:
+
+#### Prerequisites
+
+- Node.js (version 18-22) and npm
+
+#### Steps
+
+```bash
+git clone https://github.com/maxon-code/retrac-shop.git
+cd eigent
+npm install
+npm run dev
+```
