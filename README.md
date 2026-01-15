@@ -4,7 +4,9 @@
 
 ###
 <div align="center">
-  <a href="https://github.com/maxon-code/retrac-shop" title="Go to GitHub repo">
+  <a href="https://github.com/maxon-code/retrac-shop" title="Go to GitHub repo"
+    style="text-decoration:none; display:inline-block; line-height:0;"
+    >
     <img
       src="https://img.shields.io/static/v1?label=maxon-code&message=retrac-shop&color=yellow&logo=github"
       alt="maxon-code - retrac-shop"
