@@ -1,82 +1,35 @@
-<div>
-  <img style="100%" src="https://i.ibb.co/QhwRtd2/asdasdsa.png"  />
-</div>
+![Retrac Shop Banner](https://i.ibb.co/QhwRtd2/asdasdsa.png)
 
-###
-<div align="center">
-  <a href="https://github.com/maxon-code/retrac-shop" title="Go to GitHub repo">
-    <img
-      src="https://img.shields.io/static/v1?label=maxon-code&message=retrac-shop&color=yellow&logo=github"
-      alt="maxon-code - retrac-shop"
-    />
-  </a>
+[![maxon-code - retrac-shop](https://img.shields.io/static/v1?label=maxon-code&message=retrac-shop&color=yellow&logo=github)](https://github.com/maxon-code/retrac-shop)
+[![License](https://img.shields.io/badge/License-MIT-blue)](./LICENSE)
+[![Stars](https://img.shields.io/github/stars/maxon-code/retrac-shop?style=social)](https://github.com/maxon-code/retrac-shop)
+[![Forks](https://img.shields.io/github/forks/maxon-code/retrac-shop?style=social)](https://github.com/maxon-code/retrac-shop)
 
-<a href="./LICENSE" title="License" style="text-decoration:none; display:inline-block; line-height:0;">
-    <img
-      src="https://img.shields.io/badge/License-MIT-blue"
-      alt="License MIT"
-    />
-  </a>
+[![TypeScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg)](https://www.typescriptlang.org/)
+[![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg)](https://react.dev/)
+[![Next.js](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg)](https://nextjs.org/)
+[![Radix UI](https://www.radix-ui.com/favicon-white.svg)](https://www.radix-ui.com/)
+[![Tailwind CSS](https://v3.tailwindcss.com/favicons/favicon.ico?v=3)](https://tailwindcss.com/)
 
-  <a href="https://github.com/maxon-code/retrac-shop" style="text-decoration:none; display:inline-block; line-height:0;">
-    <img
-      src="https://img.shields.io/github/stars/maxon-code/retrac-shop?style=social"
-      alt="stars - retrac-shop"
-    />
-  </a>
+## 📝 Overview
 
-  <a href="https://github.com/maxon-code/retrac-shop" style="text-decoration:none; display:inline-block; line-height:0;">
-    <img
-      src="https://img.shields.io/github/forks/maxon-code/retrac-shop?style=social"
-      alt="forks - retrac-shop"
-    />
-  </a>
-</div>
+Retrac Shop is a web application that displays the current item shop from the  
+[Fortnite Retrac launcher](https://discord.com/invite/ajabc7uEUg).
 
 
-###
+## ⚡ Quick Installation
 
-<div align="center">
-    <a href="https://www.typescriptlang.org/" style="text-decoration:none; display:inline-block; line-height:0;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-    </a>
-  <img width="12" />
-    <a href="https://www.npmjs.com/" style="text-decoration:none; display:inline-block; line-height:0;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-    </a>  
-    <img width="12" />
-    <a href="https://legacy.reactjs.org/" style="text-decoration:none; display:inline-block; line-height:0;"> 
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
-    </a>  
-    <img width="12" />
-    <a href="https://www.radix-ui.com/" style="text-decoration:none; display:inline-block; line-height:0;"> 
-    <img src="https://www.radix-ui.com/favicon-white.svg" height="40" alt="radix logo"  />
-    </a>     
-    <img width="12" />
-    <a href="https://tailwindcss.com/" style="text-decoration:none; display:inline-block; line-height:0;">
-  <img src="https://v3.tailwindcss.com/favicons/favicon.ico?v=3" height="40" alt="tailwindcss logo"  />
-    </a>
-</div>
+For a quick preview using our cloud backend — get started in seconds.
 
+### Prerequisites
 
-### 📝 Overview 
+- Node.js (version 18–22)
+- npm
 
-Retrac Shop is a web application that displays the current item shop from the [Fortnite Retrac launcher.](https://discord.com/invite/ajabc7uEUg)
-
-
-### ⚡ Quick Installation
-
-For a quick preview using our cloud backend — get started in seconds:
-
-#### Prerequisites
-
-- Node.js (version 18-22) and npm
-
-#### Steps
+### Steps
 
 ```bash
 git clone https://github.com/maxon-code/retrac-shop
 cd retrac-shop
 npm install
 npm run dev
-```
