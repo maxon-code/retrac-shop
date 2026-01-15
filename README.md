@@ -27,7 +27,7 @@ For a quick preview using our cloud backend — get started in seconds:
 
 ```bash
 git clone https://github.com/maxon-code/retrac-shop.git
-cd eigent
+cd retrac-shop
 npm install
 npm run dev
 ```
