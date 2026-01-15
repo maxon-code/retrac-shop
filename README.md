@@ -75,7 +75,7 @@ For a quick preview using our cloud backend — get started in seconds:
 #### Steps
 
 ```bash
-git clone https://github.com/maxon-code/retrac-shop.git
+git clone https://github.com/maxon-code/retrac-shop
 cd retrac-shop
 npm install
 npm run dev
