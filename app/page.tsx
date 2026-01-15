@@ -60,7 +60,7 @@ export default async function HomePage() {
 
                     <IconButton asChild size="3" radius="full" color="gray">
 
-                        <a href="https://discord.com/invite/retrac" target="_blank">
+                        <a href="https://github.com/maxon-code/retrac-shop" target="_blank">
                             <Image src="/github.svg" alt="GitLogo" width={32} height={32}>
                             </Image>
                         </a>
