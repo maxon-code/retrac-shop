@@ -3,13 +3,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +22,33 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  max-width: 100%;
 }
+
+.mySwiper {
+  width: 40vh;
+  height: auto;
+  padding-bottom: 32px;
+}
+
+
+.mySwiper .swiper-slide {
+  overflow: hidden;
+}
+
+.mobileOnly { display: none; }
+.desktopOnly { display: block; }
+
+@media (max-width: 768px) {
+  .mobileOnly { display: block; }
+  .desktopOnly { display: none; }
+}
+
+.mobileCenter {
+  display: flex;
+  justify-content: center;
+}
+
+
+
