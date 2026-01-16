@@ -90,15 +90,20 @@ export default async function HomePage() {
                                     <Card key={item.id} size="2">
                                         <Flex direction="column" gap="3">
 
-                                            <Box>
+                                            <Box
+                                                style={{
+                                                    height: 360,
+                                                    position: "relative",
+                                                }}
+                                            >
                                                 <Image
                                                     src={item.image}
                                                     alt={item.name}
-                                                    width={330}
-                                                    height={330}
-                                                    className="p-2"
+                                                    fill
+                                                    style={{ objectFit: "contain" }}
                                                 />
                                             </Box>
+
 
 
                                             <Flex gap="2" wrap="wrap">
