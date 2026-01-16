@@ -15,7 +15,7 @@
     <img
       src="https://img.shields.io/static/v1?label=maxon-code&message=retrac-shop&color=yellow&logo=github"
       alt="maxon-code - retrac-shop"
-    /> https://retrac-shop.hdcc.it.com/
+    /> 
   </a>
 
 <a href="./LICENSE" title="License">
