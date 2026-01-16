@@ -4,11 +4,18 @@
 
 ###
 <div align="center">
+  <a href="https://retrac-shop.hdcc.it.com/" title="Go to the sive">
+    <img
+      src="https://img.shields.io/badge/visit-site-yellow"
+      alt="Retrac-shop"
+    /> 
+  </a>
+  
   <a href="https://github.com/maxon-code/retrac-shop" title="Go to GitHub repo">
     <img
       src="https://img.shields.io/static/v1?label=maxon-code&message=retrac-shop&color=yellow&logo=github"
       alt="maxon-code - retrac-shop"
-    />
+    /> https://retrac-shop.hdcc.it.com/
   </a>
 
 <a href="./LICENSE" title="License">
