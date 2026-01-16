@@ -25,7 +25,7 @@ export default function MobileCardsSwiper({ items }: { items: any[] }) {
         <div className="mobileOnly">
             <div className="mobileCenter">
                 <Swiper
-                    style={{"--swiper-pagination-bullet-inactive-color": "rgba(220, 220, 220);, 1", "--swiper-pagination-color": "#fff"}}
+                    style={{"--swiper-pagination-bullet-inactive-color": "rgba(220, 220, 220);, 1", "--swiper-pagination-color": "#fff"} as React.CSSProperties}
                     slidesPerView={1.0} spaceBetween={30} loop={true} navigation={false} pagination={{clickable: true,}} effect="cards" modules={[Pagination, Navigation]} className="mySwiper">
                     {items.map((item) => (
                         <SwiperSlide key={item.id}>
@@ -35,8 +35,8 @@ export default function MobileCardsSwiper({ items }: { items: any[] }) {
                                         <Image
                                             src={item.image}
                                             alt={item.name}
-                                            width={500}
-                                            height={500}
+                                            width={400}
+                                            height={400}
                                             style={{
                                                 width: "100%",
                                                 height: "auto",
