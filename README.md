@@ -73,7 +73,7 @@ Retrac Shop is a web application that displays the current item shop from the [F
 
 ### ⚡ Quick Installation
 
-For a quick preview using our cloud backend — get started in seconds:
+For a quick preview of our React Shop, get started in seconds:
 
 #### Prerequisites
 
