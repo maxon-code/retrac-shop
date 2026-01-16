@@ -97,7 +97,6 @@ export default async function HomePage() {
                                                     width={330}
                                                     height={330}
                                                     className="p-2"
-                                                    style={{ objectFit: "contain" }}
                                                 />
                                             </Box>
 
