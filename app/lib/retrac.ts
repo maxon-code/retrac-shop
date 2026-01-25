@@ -79,8 +79,9 @@ export async function getShopItems(): Promise<ShopItem[]> {
                 const fortniteCos = fortniteMap[cos.id];
 
                 const image =
-                    fortniteCos?.images?.icon ||
-                    fortniteCos?.images?.smallIcon ||
+                    fortniteCos?.images?.featured ??
+                    fortniteCos?.images?.icon ??
+                    fortniteCos?.images?.smallIcon ??
                     "/placeholder.png";
 
                 items.push({

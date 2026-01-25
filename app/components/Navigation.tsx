@@ -1,4 +1,5 @@
 import {Flex, Text, Box} from "@radix-ui/themes";
+import "../globals.css"
 export default function  Navigation() {
     return (
         <Flex
@@ -9,11 +10,7 @@ export default function  Navigation() {
         mx={{ initial: "2", md: "6" }}
 
     >
-        <Flex
-            align="center"
-            gap="3"
-            justify={{ initial: "center", md: "start" }}
-        >
+        <Flex align="center" gap="3" className="logo-focus-in" justify={{ initial: "center", md: "start" }}>
 
             <img src="/simple.svg" alt="icon" width={40} height={40}/>
 
@@ -22,6 +19,7 @@ export default function  Navigation() {
                     size={{ initial: "8", md: "6" }}
                     weight="bold"
                     align={{ initial: "center", md: "left" }}
+
                 >
                     Retrac Shop
                 </Text>

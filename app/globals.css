@@ -50,6 +50,83 @@ body {
   justify-content: center;
 }
 
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 16rem;
+}
+
+.progressRoot {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 9999px;
+  width: 100%;
+  height: 0.5rem;
+}
+
+.progressBar {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background: #eab308;
+  animation: slide 1.5s ease-in-out infinite;
+}
+
+.text {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+
+.logo-focus-in {
+  animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 10px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px 0px rgba(255, 255, 255, 1);
+  }
+}
+.card-shadow:hover {
+  animation: shadow-drop-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+}
+
+
 
 
 

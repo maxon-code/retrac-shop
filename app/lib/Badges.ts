@@ -7,7 +7,9 @@ export const rarityColorMap: Record<string, React.ComponentProps<typeof Badge>["
     Legendary: "yellow",
     Mythic: "crimson",
     "Frozen Series": "cyan",
-    "Marvel Series": "red",
+    "MARVEL SERIES": "red",
+    "Icon Series": "pink",
+    "DC SERIES": "indigo",
 };
 export const itemTypeMap: Record<string, string> = {
     Outfit: "/icons/outfit.png",
@@ -15,4 +17,7 @@ export const itemTypeMap: Record<string, string> = {
     Emote: "/icons/emote.png",
     "Loading Screen": "/icons/loading-screen.png",
     Glider: "/icons/glider.png",
+    Wrap: "/icons/wrap.png",
+    Toy: "/icons/toy.png",
+    Contrail: "/icons/contrail.png",
 }
