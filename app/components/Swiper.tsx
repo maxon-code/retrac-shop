@@ -9,17 +9,7 @@ import 'swiper/css/navigation';
 import Image from "next/image";
 import { Card, Flex, Badge, Box, Text } from "@radix-ui/themes";
 
-const rarityColorMap: Record<string, React.ComponentProps<typeof Badge>["color"]> = {
-    Common: "gray",
-    Uncommon: "green",
-    Rare: "blue",
-    Epic: "purple",
-    Legendary: "yellow",
-    Mythic: "crimson",
-    "Frozen Series": "cyan",
-    "Marvel Series": "red",
-};
-
+import { rarityColorMap, itemTypeMap} from "@/app/lib/Badges";
 export default function MobileCardsSwiper({ items }: { items: any[] }) {
     return (
         <div className="mobileOnly">
@@ -48,7 +38,14 @@ export default function MobileCardsSwiper({ items }: { items: any[] }) {
 
                                     <Flex gap="2" wrap="wrap">
                                         <Badge color={rarityColorMap[item.rarity] ?? "gray"}>{item.rarity}</Badge>
-                                        <Badge variant="soft" color="gray">{item.type}</Badge>
+                                        <Badge size={{initial: "1", md: "3"}} variant="soft" color="gray">
+
+
+                                            {itemTypeMap[item.type] && (
+                                                <img src={itemTypeMap[item.type]} alt={item.type} width={20} height={20}/>
+                                            )}
+                                            <span>{item.type}</span>
+                                        </Badge>
                                     </Flex>
 
                                     <Text weight="bold">{item.name}</Text>
