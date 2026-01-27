@@ -44,25 +44,25 @@
 ###
 
 <div align="center">
-    <a href="https://www.typescriptlang.org/">
+    
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-    </a>
+  
   <img width="12" />
-    <a href="https://www.npmjs.com/">
+   
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-    </a>  
+    
     <img width="12" />
-    <a href="https://legacy.reactjs.org/"> 
+    
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
-    </a>  
+    
     <img width="12" />
-    <a href="https://www.radix-ui.com/"> 
+    
     <img src="https://www.radix-ui.com/favicon-white.svg" height="40" alt="radix logo"  />
-    </a>     
+    
     <img width="12" />
-    <a href="https://tailwindcss.com/">
+    
   <img src="https://v3.tailwindcss.com/favicons/favicon.ico?v=3" height="40" alt="tailwindcss logo"  />
-    </a>
+   
 </div>
 
 
@@ -73,7 +73,7 @@ Retrac Shop is a web application that displays the current item shop from the [F
 
 ### ⚡ Quick Installation
 
-For a quick preview of our React Shop, get started in seconds:
+For a quick preview of React Shop, get started in seconds:
 
 #### Prerequisites
 
